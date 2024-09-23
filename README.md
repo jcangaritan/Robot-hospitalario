@@ -13,3 +13,6 @@ Respositorio de vehículo autónomo con capacidad de navegación autónoma, por 
 * **Tracking**: El robot localiza los objetos : [Puerta, Manillar, Humano, Cara]
 
 _Nota_ : Versiones de ROS --> ROS 1 **Noetic** & ROS 2 **Foxy**.
+
+## Arquitectura
+
