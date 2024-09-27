@@ -1,9 +1,27 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.16">
   <diagram name="Page-1" id="DW2yxXTDTXv0PErmnMDG">
-    <mxGraphModel>
+    <mxGraphModel dx="1364" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2Mf51H98Ej2V9C3H_Nt_-1" value="Zed_Node" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2Mf51H98Ej2V9C3H_Nt_-2" value="Pose_node" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="180" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2Mf51H98Ej2V9C3H_Nt_-3" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2Mf51H98Ej2V9C3H_Nt_-1" target="2Mf51H98Ej2V9C3H_Nt_-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="300" as="sourcePoint" />
+            <mxPoint x="310" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2Mf51H98Ej2V9C3H_Nt_-4" value="&lt;div&gt;&lt;code&gt;/zed/zed_node/path_map&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code&gt;&lt;b&gt;Topic type: &lt;/b&gt;nav_msgs/msg/Path&lt;br&gt;&lt;/code&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="260" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
