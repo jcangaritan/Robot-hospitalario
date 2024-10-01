@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.17">
   <diagram name="Page-1" id="DW2yxXTDTXv0PErmnMDG">
-    <mxGraphModel dx="1364" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1372" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZRmY2SspQiyQrZdGpQz--8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="40" y="460" width="750" height="300" as="geometry" />
+          <mxGeometry x="40" y="460" width="750" height="330" as="geometry" />
         </mxCell>
         <mxCell id="ZRmY2SspQiyQrZdGpQz--4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF99;" parent="1" vertex="1">
           <mxGeometry x="40" y="80" width="780" height="370" as="geometry" />
@@ -56,14 +56,20 @@
             <mxPoint x="432.1091270347399" y="625.1091270347399" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZRmY2SspQiyQrZdGpQz--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ZRmY2SspQiyQrZdGpQz--7" target="ZRmY2SspQiyQrZdGpQz--9" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ZRmY2SspQiyQrZdGpQz--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;curved=1;" parent="1" source="ZRmY2SspQiyQrZdGpQz--7" target="ZRmY2SspQiyQrZdGpQz--9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="244" y="730" />
+              <mxPoint x="540" y="730" />
+              <mxPoint x="540" y="704" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ZRmY2SspQiyQrZdGpQz--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" parent="1" source="ZRmY2SspQiyQrZdGpQz--7" target="ZRmY2SspQiyQrZdGpQz--9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="244" y="580" />
-              <mxPoint x="565" y="580" />
+              <mxPoint x="605" y="580" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -71,7 +77,7 @@
           <mxGeometry x="150" y="610" width="110" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ZRmY2SspQiyQrZdGpQz--9" value="robot_control" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="510" y="600" width="110" height="110" as="geometry" />
+          <mxGeometry x="550" y="610" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ZRmY2SspQiyQrZdGpQz--14" value="&lt;div&gt;/cmd_vel&lt;/div&gt;&lt;div&gt;&lt;b&gt;Topic type: &lt;/b&gt;geometry_msgs/Twist&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="270" y="530" width="220" height="50" as="geometry" />
@@ -80,7 +86,7 @@
           <mxGeometry x="280" y="610" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZRmY2SspQiyQrZdGpQz--17" value="&lt;div&gt;/goal_cabezal&lt;/div&gt;&lt;div&gt;&lt;b&gt;Topic type: &lt;/b&gt;sensor_msgs/JointState&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="280" y="700" width="240" height="30" as="geometry" />
+          <mxGeometry x="280" y="739" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8pOYoOQpOa8W0cTsU709-3" value="&lt;b&gt;Teleoperacion&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="470" width="160" height="60" as="geometry" />
