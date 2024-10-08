@@ -20,8 +20,7 @@ _Nota_ : Versiones de ROS --> ROS 1 **Noetic** & ROS 2 **Foxy**.
 Setup your robot for different tasks
 
 ## Robot Bringup
-In Intel Nuc PC do (2 terminals)
-* roscore
+In Intel Nuc PC do
 * ./catkin_ws/src/peacetolero_demo_2022_03_9/launch/config_script.bash bringup
 
 In Jetson Orin nano do:
